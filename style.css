@@ -1,0 +1,53 @@
+/* Resetting some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #fdf2f9;
+  color: #a2496f;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #ffd1ff;
+  padding: 20px;
+  text-align: center;
+}
+
+.tagline {
+  font-style: italic;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.flower {
+  background-color: #ffd1ff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border: 3px solid #ffd1ff;;
+}
+
+footer {
+  background-color: #ffccff;
+  text-align: center;
+  padding: 10px 0;
+}
